@@ -17,9 +17,9 @@
         Search Project By
     </h3>
     <form="searchForm">
-        <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags"/>
-        </br>
-        <br>
+        <form action="searchForm" method="get">
+            <label for="searchForm"></label>
+            <input type="text" id="searcTerm" name="searcTerm" placeholder="Project Name, Authors, Abstract, Tags"><br><br>
         <b>Search By:</b> 
         <br>
          <select type="" name="searchType"><option value="name">Name<option value="abstract">Abstract<option value="authors">Authors<option value="tags">Tags</select>
