@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="custom.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<style>
+    h5{
+        color:rgb(10, 117, 179)
+    }
+    h6{
+        color:rgb(143, 141, 141);
+    }
+    strong{
+        color:black
+    }
+</style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Project Explorer</a>
+  
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInputName2"></label>
+            <input type="text" class="form-control" id="inlineFormInputName2" placeholder="Search Projects">
+            <div style="margin-left: 0.5rem;"><button type="submit" class="btn btn-outline-light ">Search</button></div>
+        </form>
+        
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Submit<span class="sr-only"></span></a>
+          </li>
+          </ul>
+    <div class="container-fluid" style="width: 10rem; margin-right: 0rem;">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Sign up <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        </ul>
+         </div>
+    </div>
+  </nav>
+
+</body>
+<br>
+<div class="mx-auto" style="width: 1200px;">
+    <h2>Project Gallery</h2>
+</div>
+<div class="container-fluid bg-light p-3" style="width: 72rem; margin-right: 25rem; margin-left: 4.5rem;">
+    <form> 
+        <div class="form-group" style="width: 38rem;">
+                <div class="form-row" style="margin-right: -18rem;">
+                  <div class="col">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="text" class="form-control" placeholder="Search project name, authors,abstract,tags">
+                  </div>
+                  <div class="col-auto p-4">
+                    <label class="sr-only" for="inlineFormInputGroup"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Search by</div>
+                      </div>
+                      <select type="" class="form-control btn btn-outline-info" id="inlineFormInputGroup" placeholder="" name="searchType"><option value="Name">Name<option value="Abstract">Abstract<option value="Authors">Authors<option value="Tags">Tags</select>
+                        <div style="margin-left: 0.5rem;"></div><button type="submit" class="btn btn-primary ">Submit</button>
+                     </div>
+                  </div>
+                </div>
+        </div>
+        </form>
+</div>
+
+<div class="mx-auto" style="width: 1200px;">
+    <h4>All Projects</h4>
+    <h6> (0 results)</h6>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 17.5rem; margin-right: -301rem; margin-left: -3.5rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <h6 class="card-subtitle">Author 1, Author 2</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link-primary">#html #css #javascript</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 17.5rem; margin-right: 1rem; margin-left: -20rem;">
+            <div class="card-body">
+                <h5 class="card-title">Project Title</h5>
+                <h6 class="card-subtitle">Author 1, Author 2</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link-primary">#html #css #javascript</a>
+            </div>
+          </div>
+      </div>
+    
+    <footer>
+        <div class="container-fluid" style="width: 78rem; margin-right: -5rem; margin-left: -4.5rem;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <h6>
+                            <p class="footer">Project Explorer 
+                                <i class='far fa-copyright'></i>
+                                2020. <strong>Edconnect</strong>
+                            </p>
+                        </h6>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+  </div>
+
+</html>
