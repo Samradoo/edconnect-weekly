@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <style>
@@ -102,22 +103,19 @@
     <div class="shadow p-4 mb-4 bg-white w-auto p-4" style="background-color: white;margin-left: -18rem;">
         <main>
 
-            <h2><b>Edit Project</b></h2>
+            <h2><b>Project Abstract</b></h2>
                 <br>
-                <p class>  
+                <p class>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>Urna id volutpat lacus laoreet. Et netus et malesuada fames. Scelerisque mauris pellentesque pulvinar pellentesque habitant. In metus vulputate eu scelerisque felis imperdiet.</br>At quis risus sed vulputate odio. Aliquam eleifend mi in nulla posuere sollicitudin. Consectetur purus ut faucibus pulvinar elementum integer.<br>Sit amet commodo nulla facilisi nullam vehicula. Sed felis eget velit aliquet sagittis id consectetur purus.</p>
                     <form> 
-                    <div class="form-group" style="width: 36rem;">
+                    <div class="form-group" style="width: 35rem;">
                             <div class="form-row" style="margin-right: -18rem;">
                               <div class="col">
-                                <label for="exampleFormControlInput1">Project name</label>
-                                <input type="text" class="form-control" placeholder="Project 1">
                               </div>
-                              <div class="" style="margin-top: -80px; margin-left: 18rem;">
-                                <h3><b>Manage Project files</b></h3>
+                              <div class="" style="margin-top: -60px; margin-left: 18rem;">
+                                <h3><b>Project details</b></h3> 
                               </div>
-                              
-                              
-                              <div class="col" style="margin-left: -34rem;">
+                               
+                              <div class="col" style="margin-top: 0px; margin-left: -27rem;">
                                 <input type="file" class="custom-file-input" id="customFile">
                                 <label class="custom-file-label" for="customFile">Click to open file browser</label>
                               </div>
@@ -128,36 +126,52 @@
                         <form>
                             <div class="form-row" style="margin-right: -18rem;">
                                 <div class="form-group" style="width: 28rem;">
-                                    <label for="exampleFormControlTextarea1"><b>Project abstract</b></label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                    <label for="exampleFormControlTextarea1"><strong>Comments</strong></label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Leave a comment "></textarea>
                                 </div>
-                                <div class="card" style="width: 25rem; margin-left: 0.5rem; height: 120px; margin-top: -20px;" >
+                                
+                                <div class="card" style="width: 25rem; margin-left: 0.5rem; height: 120px">
                                     <div class="card-header">
-                                      <b>Project File</b>
+                                      Author(s)
+                                    </div>
+                                    <div class="card-body" style="height: -4rem; margin: right 20px;">
+                                      <h5 class="card-title"></h5>
+                                      <p class="card-text">Ade Chris</p>
+                                    </div>
+                                  </div>
+                                  <div class="card" style="width: 25rem; margin-left: 28.5rem; height: 175px; margin-top: -90px;" >
+                                    <div class="card-header">
+                                        <a href="#" class="card-link-primary">#web</a>
                                     </div>
                                     <div class="card-body" style="height: -4rem;">
                                       <h5 class="card-title"></h5>
-                                      <p class="card-text">No file uploaded yet.</p>
+                                      <p class="card-text"></p>
                                     </div>
+                                    <div class="card" style="width: 25rem; margin-left: 0.03rem; height: 120px; margin-top: -90px;"  >
+                                        <div class="card-header">
+                                          Project File
+                                        </div>
+                                        <div class="card-body" style="height: -4rem;">
+                                          <h5 class="card-title"></h5>
+                                          <p class="card-text">No file uploaded yet.</p>
+                                        </div>
+                                      </div>
                                   </div>
                           </form>
                     </div>
                     <div class="form-group" style="width: 38rem;">
-                        <form>
-                            <div class="form-group" style="width: 28rem;">
-                                <label for="exampleFormControlInput1"><b>Author(s)</b></label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ade Chris">
-                              </div>
-                              <div class="form-group" style="width: 28rem;">
-                                <label for="exampleFormControlInput1"><b>Tag(s)</b></label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="#web ">
-                              </div>
-                          </form>
-                    </div>
                     
-                    <div>
-                        <button type="submit" class="btn btn-primary ">Save</button>
-                    </div>                
+                    </div>
+                    <br>
+                    <div class="" style="margin-top: -120px;">
+                        <button type="submit" class="btn btn-primary ">Submit</button>
+                    </div>  
+                    <div class="" style="width: 200px; margin-left: 150px;">
+                    <br>
+                        <h6>
+                        No comment added yet
+                    </h6>
+                    </div>              
             </main>      
         </div>
         </div>

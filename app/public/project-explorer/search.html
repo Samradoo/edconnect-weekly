@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="bootstrap.min.css">
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <style>
@@ -54,19 +55,44 @@
          </div>
     </div>
   </nav>
+
 </body>
+<br>
+<div class="mx-auto" style="width: 1200px;">
+    <h2>Project Gallery</h2>
+</div>
+<div class="container-fluid bg-light p-3" style="width: 72rem; margin-right: 25rem; margin-left: 4.5rem;">
+    <form> 
+        <div class="form-group" style="width: 38rem;">
+                <div class="form-row" style="margin-right: -18rem;">
+                  <div class="col">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="text" class="form-control" placeholder="Search project name, authors,abstract,tags">
+                  </div>
+                  <div class="col-auto p-4">
+                    <label class="sr-only" for="inlineFormInputGroup"></label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Search by</div>
+                      </div>
+                      <select type="" class="form-control btn btn-outline-info" id="inlineFormInputGroup" placeholder="" name="searchType"><option value="Name">Name<option value="Abstract">Abstract<option value="Authors">Authors<option value="Tags">Tags</select>
+                        <div style="margin-left: 0.5rem;"></div><button type="submit" class="btn btn-primary ">Submit</button>
+                     </div>
+                  </div>
+                </div>
+        </div>
+        </form>
+</div>
 
-<div class="jumbotron"style="margin-right: 4rem; margin-left: 4rem;">
-    <h1 class="display-4">Welcome to Project Explorer</h1>
-    <p class="lead">Project Explorer is a repository for final year projects across all departmnets at your institution. You can submit your project and search projects submitted by others to learn from</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
-    <a class="btn btn-secondary btn-lg" href="#" role="button">Login</a>
-  </div>
+<div class="mx-auto" style="width: 1200px;">
+    <h4>All Projects</h4>
+    <h6> (0 results)</h6>
+</div>
 
-  <div class="container">
+<div class="container">
     <div class="row">
       <div class="col-sm">
-        <div class="card" style="width: 17.5rem; margin-right: 1rem; margin-left: -3.5rem;">
+        <div class="card" style="width: 17.5rem; margin-right: -301rem; margin-left: -3.5rem;">
             <div class="card-body">
               <h5 class="card-title">Project Title</h5>
               <h6 class="card-subtitle">Author 1, Author 2</h6>
@@ -76,7 +102,7 @@
           </div>
       </div>
       <div class="col-sm">
-        <div class="card" style="width: 17.5rem; margin-right: 1rem; margin-left: -1rem;">
+        <div class="card" style="width: 17.5rem; margin-right: 1rem; margin-left: -20rem;">
             <div class="card-body">
                 <h5 class="card-title">Project Title</h5>
                 <h6 class="card-subtitle">Author 1, Author 2</h6>
@@ -85,27 +111,6 @@
             </div>
           </div>
       </div>
-      <div class="col-sm">
-        <div class="card" style="width: 17.5rem; margin-right: 1rem; margin-left: -1rem;">
-            <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle">Author 1, Author 2</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link-primary">#html #css #javascript</a>
-            </div>
-          </div>
-      </div>
-      <div class="col-sm">
-        <div class="card" style="width: 17.5rem; margin-right: -3rem; margin-left: -1rem;">
-            <div class="card-body">
-                <h5 class="card-title">Project Title</h5>
-                <h6 class="card-subtitle">Author 1, Author 2</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link-primary">#html #css #javascript</a>
-            </div>
-          </div>
-      </div>
-    </div>
     
     <footer>
         <div class="container-fluid" style="width: 78rem; margin-right: -5rem; margin-left: -4.5rem;">
