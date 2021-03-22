@@ -62,15 +62,16 @@
   </nav>
 </body>
 
-<div class="mx-auto" style="width: 500px;">
-    <div class="w-auto p-4" style="background-color: white;margin-left: -18rem;">
+<div class="container-mb-4">
+    <div class="h4">
         <main>
             <br>
             
 <h1><b>Project 1</b></h1>
+    </div>
 
 
-  <div class="container" style= "width: 68rem; margin-right: 30rem; margin-left: -1rem;">
+  <div class="container" style= "width: 68rem; margin-right: 30rem; margin-left: 10rem;">
     <nav class="navbar navbar-expand-xlg navbar-dark bg-light">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -87,7 +88,7 @@
                            <br> 2020-08-30
                         </div>
                         <div class="d-flex justify-content-end">
-                            <div class="col" style="margin-right: -10rem;">
+                            <div class="col-2" style="margin-right: -10rem;">
                                 <button type="submit" class="btn btn-primary "><a class="nav-link btn btn-primary" href="viewproject.html">View Project</a></button>
                                 
                             </div>   
@@ -100,61 +101,66 @@
     </nav>
 </div>
 
-<div class="mx-auto" style="width: 200px;">
+<div class="container mx-auto" style="width: 200px;">
     <div class="shadow p-4 mb-4 bg-white w-auto p-4" style="background-color: white;margin-left: -18rem;">
-        <main>
-
-            <h2><b>Edit Project</b></h2>
+        <form class="form-group" name="editproject">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label class="form-label"><h2><b>Edit Project</b></h2></label>
+                    </div>
+                </div>
                 <br>
-                <p class>  
-                    <form> 
-                    <div class="form-group" style="width: 36rem;">
-                            <div class="form-row" style="margin-right: -18rem;">
+                <div class="col" style="margin-top: -80px; margin-left: 38rem;">
+                    <div class="form-group">
+                        <label class="form-label"><h2><b>Manage Project files</b></h2></label>
+                    </div>
+                </div>
+            </div>
+        </form>  
+                <div class="form-group" style="width: 54rem;">
+                            <div class="form-row" style="margin-right: 0rem;">
                               <div class="col">
                                 <label for="exampleFormControlInput1">Project name</label>
                                 <input type="text" class="form-control" name="name" placeholder="Project 1">
                               </div>
-                              <div class="" style="margin-top: -80px; margin-left: 18rem;">
-                                <h3><b>Manage Project files</b></h3>
-                              </div>
-                              
-                              
-                              <div class="col" style="margin-left: -34rem;">
+                            
+                              <div class="col" style="margin-left: 1rem;">
                                 <input type="file" class="custom-file-input" id="customFile">
                                 <label class="custom-file-label" for="customFile">Click to open file browser</label>
                               </div>
                             </div>
-                    </div>
+                </div>
                     </form>
                     <div class="form-group" style="width: 38rem;">
                         <form>
                             <div class="form-row" style="margin-right: -18rem;">
-                                <div class="form-group" style="width: 28rem;">
-                                    <label for="exampleFormControlTextarea1"><b>Project abstract</b></label>
-                                    <textarea class="form-control" name="abstract" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <div class="form-group col" style="width: 28rem;">
+                                    <form-label for="abstract"><b>Project abstract</b></form-label>
+                                    <textarea type="text" class="form-control" name="abstract" id="exampleFormControlTextarea1" rows="8"></textarea>
                                 </div>
+                                <div class="col">
                                 <div class="card" style="width: 25rem; margin-left: 0.5rem; height: 120px; margin-top: -20px;" >
                                     <div class="card-header">
-                                      <b>Project File</b>
+                                      <b>Project Files</b>
                                     </div>
-                                    <div class="card-body" style="height: -4rem;">
-                                      <h5 class="card-title"></h5>
-                                      <p class="card-text">No file uploaded yet.</p>
-                                    </div>
-                                  </div>
-                          </form>
+                                    <div class="card-body text-center" style="height: -4rem;">No file uploaded yet.</div>
+                                </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group" style="width: 38rem;">
-                        <form>
-                            <div class="form-group" style="width: 28rem;">
-                                <label for="exampleFormControlInput1"><b>Author(s)</b></label>
+                    <div class="form-row" style="width: 38rem;">
+                            <div class="form-group col-6" style="width: 28rem;">
+                                <form-label for="authors"><b>Author(s)</b></form-label>
                                 <input type="text" class="form-control" name="authors" id="exampleFormControlInput1" placeholder="Ade Chris">
                               </div>
-                              <div class="form-group" style="width: 28rem;">
-                                <label for="exampleFormControlInput1"><b>Tag(s)</b></label>
+                              <div class="form-row">
+                              <div class="form-group col-6" style="width: 28rem;">
+                                <form-label for="tags"><b>Tag(s)</b></label>
                                 <input type="text" class="form-control" name="tags" id="exampleFormControlInput1" placeholder="#web ">
                               </div>
-                          </form>
+                              </div>
                     </div>
                     
                     <div>
@@ -167,7 +173,7 @@
                 
     
   <footer>
-    <div class="container-fluid" style="width: 68rem; margin-right: -20rem; margin-left: -20rem;">
+    <div class="container-fluid" style="width: 68rem; margin-right: 20rem; margin-left: 10rem;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
